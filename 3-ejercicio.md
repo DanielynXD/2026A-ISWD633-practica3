@@ -2,13 +2,14 @@
 ![Imagen](esquema-ejercicio3.PNG)
 
 ### Crear red net-wp
-# COMPLETAR CON EL COMANDO COMANDO
+<img width="779" height="233" alt="image" src="https://github.com/user-attachments/assets/c9e08d73-d35b-43db-9aa3-058c0a095ce2" />
+
 
 ### Para que persista la información es necesario conocer en dónde mysql almacena la información.
 # COMPLETAR LA SIGUIENTE ORACIÓN. REVISAR LA DOCUMENTACIÓN DE LA IMAGEN EN https://hub.docker.com/
-En el esquema del ejercicio carpeta del contenedor (a) es (COMPLETAR CON LA RUTA)
+En el esquema del ejercicio carpeta del contenedor (a) es /var/lib/mysql
 
-Ruta carpeta host: .../ejercicio3/db
+Ruta carpeta host: C:/docker/ejercicio3/db
 
 ### ¿Qué contiene la carpeta db del host?
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA
