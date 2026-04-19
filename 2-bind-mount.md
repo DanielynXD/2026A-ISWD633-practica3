@@ -38,6 +38,8 @@ Ahora si tiene un archivo index.html y se ve la página web del template que des
 
 
 ### ¿Qué sucede al crear nuevamente un contenedor montado al directorio definidos anteriormente?
+<img width="1456" height="96" alt="image" src="https://github.com/user-attachments/assets/25f5ec99-e002-4858-b45b-9b00c33edde8" />
+
 Al ingresar al servidor de nginx se sigue mostrando la página web del template que descargue, lo que quiere decir que al eliminar el contenedor persistieron los datos.
 
 
