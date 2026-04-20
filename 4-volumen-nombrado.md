@@ -8,7 +8,8 @@ docker volume create <nombre volumen>
 ```
 
 ### Crear el volumen nombrado: vol-postgres
-# COMPLETAR CON EL COMANDO
+<img width="593" height="63" alt="image" src="https://github.com/user-attachments/assets/691c940b-3648-43a9-93f6-e20dc5c2bacd" />
+
 
 ## MOUNTPOINT
 Un mountpoint se refiere al lugar en el sistema de archivos donde un dispositivo de almacenamiento se une (o monta) al sistema de archivos. Es el punto donde los archivos y directorios almacenados en ese dispositivo de almacenamiento son accesibles para el sistema operativo y las aplicaciones.
@@ -39,7 +40,8 @@ docker run -d --name <nombre contenedor> --mount type=volume,src=<nombre >,dst=<
 
 
 ### Crear la red net-drupal de tipo bridge
-# COMPLETAR CON EL COMANDO
+<img width="783" height="63" alt="image" src="https://github.com/user-attachments/assets/7a256d99-09b2-4c2e-b361-5f09c4457ba2" />
+
 
 ### Crear un servidor postgres vinculado a la red net-drupal, completar la ruta del contenedor
 ```
@@ -55,7 +57,8 @@ docker run -d --name client-postgres --publish published=9500,target=80 -e PGADM
 ### Usar el cliente postgres para conectarse al servidor postgres, para la conexión usar el nombre del servidor en lugar de la dirección IP.
 
 ### Crear los volúmenes necesarios para drupal, esto se puede encontrar en la documentación
-### COMPLETAR CON LOS COMANDOS
+<img width="721" height="283" alt="image" src="https://github.com/user-attachments/assets/e5c914fd-0517-4faf-8705-5cd67bf7f4af" />
+
 
 ### Crear el contenedor server-drupal vinculado a la red, usar la imagen drupal, y vincularlo a los volúmenes nombrados
 ```
@@ -63,11 +66,13 @@ docker run -d --name server-drupal --publish published=9700,target=80 -v <nombre
 ```
 
 ### Ingrese al server-drupal y siga el paso a paso para la instalación.
-# COMPLETAR CON UNA CAPTURA DE PANTALLA DEL PASO 4
+<img width="1253" height="1020" alt="image" src="https://github.com/user-attachments/assets/541924fb-ff60-4e37-9268-53dff534a08b" />
+
 
 _La instalación puede tomar varios minutos, mientras espera realice un diagrama de los contenedores que ha creado en este apartado._
 
-# COMPLETAR CON EL DIAGRAMA SOLICITADO
+<img width="1911" height="1177" alt="Diagrama practica 3" src="https://github.com/user-attachments/assets/ad5c7153-a212-4adb-92e0-ed623a2d2cea" />
+
 
 ### Eliminar un volumen específico
 ```
